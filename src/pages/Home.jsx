@@ -84,12 +84,12 @@ const Home = () => {
           initial={{ opacity: 0, x: 50, scale: 0.95 }}
           whileInView={{ opacity: 1, x: 0, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="relative z-10 max-w-sm rounded-3xl overflow-hidden shadow-2xl border border-white/20 bg-white/10 backdrop-blur-xl"
+          className="relative z-10 max-w-sm rounded-full overflow-hidden shadow-2xl border border-white/20 bg-white/10 backdrop-blur-xl"
         >
           <img
-            src="/path-to-your-image.jpg" // <-- replace with your image
+            src="/profail.jpg" // <-- replace with your image
             alt="Mehedi Hasan"
-            className="w-full object-cover rounded-3xl"
+            className="w-full object-cover rounded-full"
           />
         </motion.div>
       </div>

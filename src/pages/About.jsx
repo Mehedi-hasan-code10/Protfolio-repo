@@ -60,12 +60,12 @@ const About = () => {
         initial={{ opacity: 0, x: 50, scale: 0.95 }}
         whileInView={{ opacity: 1, x: 0, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative z-10 flex-1 max-w-sm rounded-3xl overflow-hidden shadow-2xl border border-white/20 bg-white/10 backdrop-blur-xl"
+        className="relative z-10 flex-1 max-w-sm rounded-full overflow-hidden shadow-2xl border border-white/20 bg-white/10 backdrop-blur-xl"
       >
         <img
-          src="/path-to-your-photo.jpg" // <-- replace with your photo
+          src="/profail.jpg" // <-- replace with your photo
           alt="Mehedi Hasan"
-          className="w-full h-full object-cover rounded-3xl"
+          className="w-full h-full object-cover rounded-full"
         />
       </motion.div>
 
